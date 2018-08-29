@@ -1,0 +1,17 @@
+// https://github.com/duc0/ContestNeko
+
+#include <iostream>
+#include <fstream>
+
+#define IO_USE_CSTDIO
+#define SUBMIT
+
+%Code%
+
+int main() {
+    %ClassName% solver;
+    %Input%
+    %Output%
+    %SolverCall%
+    return 0;
+}
